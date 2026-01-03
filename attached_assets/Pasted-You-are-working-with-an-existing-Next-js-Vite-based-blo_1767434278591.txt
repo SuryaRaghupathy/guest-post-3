@@ -1,0 +1,87 @@
+You are working with an existing Next.js / Vite-based blog project.
+
+CRITICAL RULES (MUST FOLLOW STRICTLY):
+1. DO NOT add any new folders.
+2. DO NOT delete, rename, or move any existing folders.
+3. DO NOT change routing, markdown loading logic, server code, scripts, build config, or data flow.
+4. DO NOT modify how markdown files are imported or rendered.
+5. ONLY UI (branding + styling + layout) changes are allowed.
+6. ONLY markdown (.md) files inside `content/posts/` should be removed.
+7. No other files should be removed or altered structurally.
+
+---
+
+## TASKS TO PERFORM
+
+### 1️⃣ Clear Blog Content
+- Delete ALL `.md` files inside:
+  `content/posts/`
+- Keep the folder itself intact.
+- Ensure the site loads without errors.
+- Display a clean empty-state UI instead of breaking the page.
+
+---
+
+### 2️⃣ Change Brand Name (IMPORTANT)
+- Replace the existing brand/site name wherever it appears in the UI:
+  - Header
+  - Footer
+  - Homepage titles
+  - Metadata titles (if present in UI files only)
+- New brand name to use consistently:
+  
+  **Brand Name:** `GuestPost Hub`
+
+⚠️ Do NOT change:
+- Project name
+- Repo name
+- Folder names
+- Environment variables
+- Build files
+
+---
+
+### 3️⃣ UI Redesign ONLY (No logic changes)
+Redesign the UI to match a **modern guest-post publishing platform**:
+
+- Clean white background
+- Soft grey borders
+- Subtle shadows
+- Professional editorial typography
+- Modern sans-serif font
+- Minimal, SEO-focused design
+- Header with:
+  - Brand name: **GuestPost Hub**
+- Footer with simple copyright text
+
+---
+
+### 4️⃣ Empty State UI (Mandatory)
+When there are no posts:
+- Show a centered message:
+  **“No posts published yet.”**
+- Optional subtitle:
+  *“Guest articles will appear here once published.”*
+- This must be UI-only (no logic rewrites).
+
+---
+
+### 5️⃣ Code Safety Rules
+- Do NOT change file paths
+- Do NOT introduce new dependencies
+- Do NOT refactor existing logic
+- Do NOT touch `server`, `script`, `shared`, or markdown loader code
+- Do NOT modify `dist`
+
+---
+
+## FINAL EXPECTATION
+✔ Same project  
+✔ Same structure  
+✔ Same behavior  
+✔ New brand name: **GuestPost Hub**  
+✔ Clean redesigned UI  
+✔ Blog content cleared safely  
+✔ Ready for deployment  
+
+Proceed carefully and conservatively.
